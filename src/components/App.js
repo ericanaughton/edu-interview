@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import NewThing from './components/NewThing.js';
+import '../App.css';
+import NewThing from './NewThing.js';
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
         <p className="App-intro">
           Let's get ready to rumble!
         </p>
+
         <NewThing />
       </div>
     );
